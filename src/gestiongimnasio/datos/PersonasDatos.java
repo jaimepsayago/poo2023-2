@@ -44,7 +44,8 @@ public class PersonasDatos {
 	for(int i=0;i<listaPersonas.size(); i++) {
 		personaExtraidaLista = listaPersonas.get(i);
 		if(!(personaExtraidaLista instanceof Gerente)) //gerente no tiene el atributo resposanble
-			if((personaExtraidaLista.getResponsable().getDni()).compareTo(personaAutenticada.getDni())==0)
+			if((personaExtraidaLista.getResponsable().
+					getDni()).compareTo(personaAutenticada.getDni())==0)
 				listaPersonasACargo.add(personaExtraidaLista);
 			
 		}
