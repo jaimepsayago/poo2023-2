@@ -19,5 +19,7 @@ public class AppOperations {
 		op.imprimeSuma(x, y);
 		
 	}
+	
+	//tarea construir una calcualdora completa en base a este codigo
 
 }
